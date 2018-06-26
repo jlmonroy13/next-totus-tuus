@@ -1,0 +1,22 @@
+.header {
+    position: relative;
+    margin-bottom: 2.2%;
+    &__caption {
+        max-width: 27%;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 42%;
+        transform: translate(-50%, 0);
+    }
+    &__text{
+        font-size: 1.01rem;
+    }
+    &__image {
+        float: right;
+        margin-top: 3%;
+        width: 22.5%;
+        height: 3.78rem;
+    }
+}
+

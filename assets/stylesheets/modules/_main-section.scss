@@ -1,0 +1,172 @@
+.main {
+    display: block;
+    &__advertisement {
+        text-align: center;
+        margin-top: 6%;
+        &-image {
+            width: 100%;
+        }
+        &-text {
+            &-down {
+                padding-bottom: 1%;
+                margin-bottom: 1%;
+                color: orangered;
+                font-size: 1.95rem;
+            }
+            &-up {
+                font-size: 2vw;
+                padding: 10% 0px;
+            }
+        }
+    }
+    &__menu {
+        &-section {
+            text-align: center;
+            max-height: 76.2px;
+            &--blue {
+                &-dark {
+                    background-color: $blue-dark;
+                    &:hover {
+                        background-image: url('../images/jhoana2.png');
+                        background-repeat: no-repeat;
+                        background-size: 46%;
+                        background-position: 7% 31%;
+                        transition: all 0.5s;
+                        padding: 1.65% 34.8%;
+                        padding-right: 0%;
+                        transition-timing-function: ease-out;
+                    }
+                }
+                &-light {
+                    background-color: $blue-light;
+                    &:hover {
+                        background-image: url('../images/revistas.png');
+                        background-repeat: no-repeat;
+                        background-size: 61%;
+                        background-position: 101% 55%;
+                        padding: 0.7rem 51%;
+                        padding-left: 0%;
+                        transition: all 0.5s;
+                        transition-timing-function: ease-out;
+                    }
+                }
+                &-cloud {
+                    background-color: $blue-cloud;
+                }
+                &-deep {
+                    background-color: $blue-deep;
+                }
+            }    
+        }
+        &-text {
+            font-family: 'Libel-Suit';
+            color: $white;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 4.7% 0;
+            &--blue {
+                &-dark {
+                    background-color: $blue-dark;
+                    display: inline-block;
+                    padding: 3.5% 6.7%;
+                    border-radius: 6px;
+                    padding-left: 4%;
+                }
+            }
+            &-link {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+            &--interviews {
+                &:hover {
+                    background-image: url('../images/fotos.png');
+                    background-repeat: no-repeat;
+                    background-size: 48% 5.2rem;
+                    background-position: 7% 31%;
+                    transition: all;
+                    padding: 2.06% 52.8%;
+                    padding-right: 0%;
+                    transition-timing-function: ease-out;
+                    font-size: 1.59rem;
+                }
+            }
+            &--contact {
+                &:hover span {
+                    display: none;
+                 }
+                 &:hover:before {
+                    content: "totustuus1207@gmail.com"; 
+                }
+            }
+        }
+    }
+    &__client {
+        margin-top: 10px;
+        text-align: center;
+        &-promo { 
+            display: inline-block;
+            width: 48%;
+            background-color: $blue-black;
+            padding: 11% 5%;
+            color: $white;
+            line-height: 1;
+            height: 13.4rem;
+            &-text {
+                display: block;
+                font-size: 1.24rem;
+            }
+            &-subtext {
+                font-size: 0.56rem;
+                display: block;
+                line-height: 1.4;
+                &-space {
+                    padding: 30px; 
+                    padding-bottom: 0;
+                    padding-top: 6px;
+                    margin-top: 5px;
+                }
+            }
+        }
+        &-info {
+            padding: 5% 26%;
+            text-align: center;
+            font-size: 1.02rem;
+            line-height: 1.2;
+            color: gray;
+            padding-top: 12%;
+        }
+        &-contact {
+            background-image: url('../images/3.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 52%;
+            height: 13.4rem;
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+    &__image {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 22px;
+        &--m0 {
+            margin-top: 0;
+        }
+    }
+}
+
+.carousel {
+    &__image {
+        width: 50%;
+    }
+    &__button {
+        &-left {
+            display: none;
+        }
+    }
+}
+
+//.slider-control-

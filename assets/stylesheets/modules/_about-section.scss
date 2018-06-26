@@ -1,0 +1,72 @@
+.about{
+    &__description {
+        margin-top: 1.2%;
+        &-text {
+            text-align: justify;
+            background-color: $pale-blue;
+            padding-left: 4.4%;
+            padding-top: 4.4%;
+            padding-right: 3%;
+            padding-bottom: 15%;
+            font-size: 1.005rem;
+            font-family: Verdana;
+            color: $white;
+            line-height: 1.68;
+            margin-top: 5.3%;
+        }
+        &-content {
+            margin-bottom: 0;
+        }
+        &-image {
+            background-image: url('../images/5.png');
+            background-repeat: no-repeat;
+            height: 6.99rem;
+            background-size: contain;
+            margin-top: 15px;
+        }
+    }
+    &__presentation {
+        margin-left: 25px;
+        &-text {
+            width: 70%;
+            display: inline-block;
+            font-family: Verdana;
+            margin-top: 7%;
+            font-size: 0.94rem;
+            text-align: justify;
+            line-height: 1.6;
+            &-first {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__profile {
+        width: 30%;
+        display: inline-block;
+        position: relative;
+        top: -50px;
+        &-image {
+            width: 63%;
+        }
+        &-name {
+            position: absolute;
+            left: 41%;
+            top: 69%;
+            background-color: $blue-dark;
+            color: $white;
+            border-radius: 7px;
+            font-family: 'Libel-Suit';
+            font-size: 1.24rem;
+            padding: 3.6% 9.5%;
+        }
+    }
+    &__image {
+        background-image: url('../images/4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 16.7rem;
+        margin-top: 2.57%;
+        margin-left: 3.5%;
+        width: 97%;
+    }
+}

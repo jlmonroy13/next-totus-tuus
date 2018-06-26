@@ -18,4 +18,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/assets/pdf_ediciones
+/static/pdf_ediciones

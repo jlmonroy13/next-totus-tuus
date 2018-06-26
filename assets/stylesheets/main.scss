@@ -1,6 +1,27 @@
-@import 'normalize.css';
+// Settings and colors
+@import "settings/colors";
+@import "settings/variables";
 
+// External libraries
+@import "external-libraries/*";
 
+// Vendors
+@import "vendors/*";
+
+// Mixins styles
+@import "mixins/*";
+
+// Core styles
+@import "core/*";
+
+// Modules styles
+@import "modules/*";
 
 // Components
 @import "../../components/*";
+
+// Pages
+@import "../../pages/*";
+
+// Helpers
+@import "helpers/*";
