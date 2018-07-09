@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 class Interviews extends Component {
   render() {
@@ -18,28 +18,19 @@ class Interviews extends Component {
           </div>
           <div className="grid__item two-quarters">
             <div className="interview__menu">
-              <Link
-                className="interview__menu-text-link"
-                to="entrevistas/religiosas"
-              >
+              <Link href="entrevistas/religiosas">
                 <div className="interview__menu-section interview__menu-section--blue-dark">
                   <h2 className="interview__menu-text">
                     Sacerdotes / Religiosas
                   </h2>
                 </div>
               </Link>
-              <Link
-                className="interview__menu-text-link"
-                to="entrevistas/musicos-catolicos"
-              >
+              <Link href="entrevistas/musicos-catolicos">
                 <div className="interview__menu-section interview__menu-section--blue-light">
                   <h2 className="interview__menu-text">Músicos Católicos</h2>
                 </div>
               </Link>
-              <Link
-                className="interview__menu-text-link"
-                to="entrevistas/testimonios-de-conversion"
-              >
+              <Link href="entrevistas/testimonios-de-conversion">
                 <div className="interview__menu-section interview__menu-section--blue-cloud">
                   <h2 className="interview__menu-text">
                     Testimonios de Conversión
@@ -49,7 +40,11 @@ class Interviews extends Component {
             </div>
           </div>
           <div className="grid__item one-quarter">
-            <img className="interview__main-image" src="/static/images/interviews/01.jpg" alt="" />
+            <img
+              className="interview__main-image"
+              src="/static/images/interviews/01.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>

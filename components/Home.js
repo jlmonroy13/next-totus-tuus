@@ -28,21 +28,21 @@ class Home extends Component {
 
           <div className="grid__item one-third">
             <div className="main__menu">
-              <Link className="main__menu-text-link" to="quienes-somos">
+              <Link href="/quienes-somos">
                 <div className="main__menu-section main__menu-section--blue-dark">
                   <h2 className="main__menu-text main__menu-text--about">
                     ¿Quienes Somos?
                   </h2>
                 </div>
               </Link>
-              <Link className="main__menu-text-link" to="ediciones">
+              <Link href="/ediciones">
                 <div className="main__menu-section main__menu-section--blue-light">
                   <h2 className="main__menu-text main__menu-text--editions">
                     Ediciones
                   </h2>
                 </div>
               </Link>
-              <Link className="main__menu-text-link" to="entrevistas">
+              <Link href="/entrevistas">
                 <div className="main__menu-section main__menu-section--blue-cloud">
                   <h2 className="main__menu-text main__menu-text--interviews">
                     Entrevistas Exclusivas de TOTUS TUUS
@@ -67,13 +67,19 @@ class Home extends Component {
                 <span className="main__client-promo-subtext"> MAYOR INFO</span>
                 <span className="main__client-promo-subtext">
                   {' '}
-                  TOTUSTUUS1207@GMAIL.COM
+                  <a href="mailto:totustuus1207@gmail.com">
+                    TOTUSTUUS1207@GMAIL.COM
+                  </a>
                 </span>
               </div>
               <div className="main__client-contact" />
             </div>
             <div className="main__client-info">
-              <span className="main__client-text">totustuus1207@gmail.com</span>
+              <span className="main__client-text">
+                <a href="mailto:totustuus1207@gmail.com">
+                  totustuus1207@gmail.com
+                </a>
+              </span>
               <span> +57 3012784279</span>
               <span> Barranquilla - Colombia</span>
             </div>
@@ -84,7 +90,7 @@ class Home extends Component {
               <div className="main__magazine">
                 <img
                   className="main__image main__image--m0"
-                  src="/static/images/edition-images/image_19.JPG"
+                  src="/static/images/edition-images/19.jpeg"
                   alt=""
                 />
               </div>

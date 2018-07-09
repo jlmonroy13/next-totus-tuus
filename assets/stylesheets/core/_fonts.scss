@@ -1,10 +1,10 @@
 // Roboto
 @font-face {
     font-family: 'Libel-Suit';
-    src: url('../fonts/libel-suit-rg.eot') format('embedded-opentype'),
-      url('../fonts/LibelSuitRg-Regular.woff') format('woff'),
-      url('../fonts/LibelSuitRg-Regular.ttf') format('truetype'),
-      url('../fonts/LibelSuitRg-Regular.svg#LibelSuitRg-Regular') format('svg');
+    src: url('/static/fonts/libel-suit-rg.eot') format('embedded-opentype'),
+      url('/static/fonts/LibelSuitRg-Regular.woff') format('woff'),
+      url('/static/fonts/LibelSuitRg-Regular.ttf') format('truetype'),
+      url('/static/fonts/LibelSuitRg-Regular.svg#LibelSuitRg-Regular') format('svg');
     font-weight: 300;
     font-style: normal;
 }

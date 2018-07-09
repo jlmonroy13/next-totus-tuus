@@ -14,8 +14,12 @@ class Header extends Component {
               amor, mi futuro a tu providencia.” San Pío de Pietrecina
             </p>
           </div>
-          <Link to="/">
-                <img className="header__image" src="/static/images/logo.png" alt="user face" />
+          <Link href="/">
+            <img
+              className="header__image pointer"
+              src="/static/images/logo.png"
+              alt="user face"
+            />
           </Link>
         </div>
       </header>

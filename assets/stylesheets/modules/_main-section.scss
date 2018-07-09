@@ -23,11 +23,16 @@
         &-section {
             text-align: center;
             max-height: 76.2px;
+            color: $white;
+            cursor: pointer;
+            &:hover {
+                color: $white;
+            }
             &--blue {
                 &-dark {
                     background-color: $blue-dark;
                     &:hover {
-                        background-image: url('../images/jhoana2.png');
+                        background-image: url('/static/images/jhoana2.png');
                         background-repeat: no-repeat;
                         background-size: 46%;
                         background-position: 7% 31%;
@@ -40,7 +45,7 @@
                 &-light {
                     background-color: $blue-light;
                     &:hover {
-                        background-image: url('../images/revistas.png');
+                        background-image: url('/static/images/revistas.png');
                         background-repeat: no-repeat;
                         background-size: 61%;
                         background-position: 101% 55%;
@@ -81,7 +86,7 @@
             }
             &--interviews {
                 &:hover {
-                    background-image: url('../images/fotos.png');
+                    background-image: url('/static/images/fotos.png');
                     background-repeat: no-repeat;
                     background-size: 48% 5.2rem;
                     background-position: 7% 31%;
@@ -138,7 +143,7 @@
             padding-top: 12%;
         }
         &-contact {
-            background-image: url('../images/3.jpeg');
+            background-image: url('/static/images/3.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
             width: 52%;
@@ -159,9 +164,9 @@
 }
 
 .carousel {
-    &__image {
-        width: 50%;
-    }
+    // &__image {
+    //     width: 50%;
+    // }
     &__button {
         &-left {
             display: none;

@@ -2,13 +2,13 @@ import Link from 'next/link';
 import Head from '../components/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Home from '../components/Home';
+import Interviews from '../components/Interviews';
 
 export default () => (
   <div>
-    <Head title="Totus Tuus" />
+    <Head title="Totus Tuus - Ediciones" />
     <Header />
-    <Home />
+    <Interviews />
     <Footer />
   </div>
 );
