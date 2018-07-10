@@ -13,98 +13,98 @@ class Section2 extends Component {
             </h2>
             <div className="interview__gallery">
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/luna-eikar">
+                <Link href="/entrevistas/luna-eikar">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-4.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/luna-eikar">
+                <Link href="/entrevistas/luna-eikar">
                   <span className="interview__gallery-text pointer">
                     Luna Eikar
                   </span>
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/celines-diaz">
+                <Link href="/entrevistas/celines-diaz">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-3.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/celines-diaz">
+                <Link href="/entrevistas/celines-diaz">
                   <span className="interview__gallery-text pointer">
                     Celinés Díaz
                   </span>
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/son-by-4">
+                <Link href="/entrevistas/son-by-4">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-13.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/son-by-4">
+                <Link href="/entrevistas/son-by-4">
                   <span className="interview__gallery-text pointer">
                     Son By 4{' '}
                   </span>
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/joan-sanchez">
+                <Link href="/entrevistas/joan-sanchez">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-10.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/joan-sanchez">
+                <Link href="/entrevistas/joan-sanchez">
                   <span className="interview__gallery-text interview__gallery-text-space">
                     Joan Sanchez{' '}
                   </span>
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/jesse-demara">
+                <Link href="/entrevistas/jesse-demara">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-8.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/jesse-demara">
+                <Link href="/entrevistas/jesse-demara">
                   <span className="interview__gallery-text pointer">
                     Jesse Demara
                   </span>
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/dumas-y-mary">
+                <Link href="/entrevistas/dumas-y-mary">
                   <img
                     className="interview__gallery-image pointer interview__gallery-image--increase"
                     src="/static/images/profile/profile-17.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/dumas-y-mary">
+                <Link href="/entrevistas/dumas-y-mary">
                   <span className="interview__gallery-text pointer">
                     Dumas y Mary
                   </span>
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/pablo-martinez">
+                <Link href="/entrevistas/pablo-martinez">
                   <img
                     className="interview__gallery-image pointer interview__gallery-image--increase"
                     src="/static/images/profile/profile-19.JPG"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/pablo-martinez">
+                <Link href="/entrevistas/pablo-martinez">
                   <span className="interview__gallery-text pointer">
                     Pablo Martinez
                   </span>

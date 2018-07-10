@@ -13,14 +13,14 @@ class Section3 extends Component {
             </h2>
             <div className="interview__gallery">
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/rochi-stevenson">
+                <Link href="/entrevistas/rochi-stevenson">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-1.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/rochi-stevenson">
+                <Link href="/entrevistas/rochi-stevenson">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text--one">
                       Rochi Stevenson{' '}
@@ -32,14 +32,14 @@ class Section3 extends Component {
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/amada-rosa-perez">
+                <Link href="/entrevistas/amada-rosa-perez">
                   <img
                     className="interview__gallery-image pointer interview__gallery-image--increase"
                     src="/static/images/profile/profile-16.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/amada-rosa-perez">
+                <Link href="/entrevistas/amada-rosa-perez">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text--one">
                       Amada Rosa Perez{' '}
@@ -51,14 +51,14 @@ class Section3 extends Component {
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/wilson-lopez">
+                <Link href="/entrevistas/wilson-lopez">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-5.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/wilson-lopez">
+                <Link href="/entrevistas/wilson-lopez">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text--expand">
                       {' '}
@@ -72,14 +72,14 @@ class Section3 extends Component {
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/alejandro-ordoñez">
+                <Link href="/entrevistas/alejandro-ordonez">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-2.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/alejandro-ordoñez">
+                <Link href="/entrevistas/alejandro-ordonez">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text--one">
                       Alejandro Ordoñez Maldonado
@@ -91,14 +91,14 @@ class Section3 extends Component {
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/juan-manuel-cotelo">
+                <Link href="/entrevistas/juan-manuel-cotelo">
                   <img
                     className="interview__gallery-image pointer interview__gallery-image--increase"
                     src="/static/images/profile/profile-11.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/juan-manuel-cotelo">
+                <Link href="/entrevistas/juan-manuel-cotelo">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text--one">
                       Juan Manuel Cotelo
@@ -110,14 +110,14 @@ class Section3 extends Component {
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/maria-angelica">
+                <Link href="/entrevistas/maria-angelica">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-7.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/maria-angelica">
+                <Link href="/entrevistas/maria-angelica">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text--one">
                       María Angélica Araujo
@@ -129,14 +129,14 @@ class Section3 extends Component {
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/felipe-arias">
+                <Link href="/entrevistas/felipe-arias">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-6.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/felipe-arias">
+                <Link href="/entrevistas/felipe-arias">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text--one">
                       Felipe Arias
@@ -149,14 +149,14 @@ class Section3 extends Component {
               </div>
 
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/ruben-garcia">
+                <Link href="/entrevistas/ruben-garcia">
                   <img
                     className="interview__gallery-image pointer"
                     src="/static/images/profile/profile-9.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/ruben-garcia">
+                <Link href="/entrevistas/ruben-garcia">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text interview__gallery-text--expand">
                       Ruben Garcia
@@ -171,14 +171,14 @@ class Section3 extends Component {
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/ricardo-castañon">
+                <Link href="/entrevistas/ricardo-castanon">
                   <img
                     className="interview__gallery-image pointer interview__gallery-image--increase"
                     src="/static/images/profile/profile-15.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/ricardo-castañon">
+                <Link href="/entrevistas/ricardo-castanon">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text--one">
                       Ricardo Castañon
@@ -190,14 +190,14 @@ class Section3 extends Component {
                 </Link>
               </div>
               <div className="interview__gallery-profile">
-                <Link href="/entrevista/fernando-casanova">
+                <Link href="/entrevistas/fernando-casanova">
                   <img
                     className="interview__gallery-image pointer interview__gallery-image--increase"
                     src="/static/images/profile/profile-14.jpeg"
                     alt=""
                   />
                 </Link>
-                <Link href="/entrevista/fernando-casanova">
+                <Link href="/entrevistas/fernando-casanova">
                   <span className="pointer">
                     <span className="interview__gallery-text interview__gallery-text">
                       Fernando Casanova

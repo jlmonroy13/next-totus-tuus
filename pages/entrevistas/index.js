@@ -5,7 +5,12 @@ import Interviews from '../../components/Interviews';
 
 export default () => (
   <div>
-    <Head title="Totus Tuus - Entrevistas" />
+    <Head
+      title="Revista Totus Tuus - Entrevistas"
+      description="Entrevistas exclusivas realizadas por La revista TOTUS TUUS."
+      url="https://www.revistatotustuus.com/entrevistas"
+      ogImage="/static/images/interviews/02.jpg"
+    />
     <Header />
     <Interviews />
     <Footer />

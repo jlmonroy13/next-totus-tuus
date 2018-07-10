@@ -12,28 +12,28 @@ class Section1 extends Component {
               Sacerdotes / Religiosas
             </h2>
             <div className="interview__gallery-profile">
-              <Link href="/entrevista/padre-angel-espinosa">
+              <Link href="/entrevistas/padre-angel-espinosa">
                 <img
                   className="interview__gallery-image pointer"
                   src="/static/images/profile/profile-18.jpeg"
                   alt=""
                 />
               </Link>
-              <Link href="/entrevista/padre-angel-espinosa">
+              <Link href="/entrevistas/padre-angel-espinosa">
                 <span className="interview__gallery-text pointer">
                   Padre Ángel Espinosa
                 </span>
               </Link>
             </div>
             <div className="interview__gallery-profile">
-              <Link href="/entrevista/hermana-ines-de-jesus">
+              <Link href="/entrevistas/hermana-ines-de-jesus">
                 <img
                   className="interview__gallery-image pointer"
                   src="/static/images/profile/profile-12.jpeg"
                   alt=""
                 />
               </Link>
-              <Link href="/entrevista/hermana-ines-de-jesus">
+              <Link href="/entrevistas/hermana-ines-de-jesus">
                 <span className="interview__gallery-text pointer">
                   Hermana Inés de Jesús
                 </span>
