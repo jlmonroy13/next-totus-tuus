@@ -5,7 +5,12 @@ import SecondSection from '../../components/Interviews/Interview-section/SecondS
 
 export default () => (
   <div>
-    <Head title="Totus Tuus - Entrevistas Músicos" />
+    <Head
+      title="Revista Totus Tuus - Entrevistas Músicos Católicos"
+      description="Entrevista a Músicos Católicos."
+      url="https://www.revistatotustuus.com/entrevistas/musicos-catolicos"
+      ogImage="/static/images/logo.png"
+    />
     <Header />
     <SecondSection />
     <Footer />

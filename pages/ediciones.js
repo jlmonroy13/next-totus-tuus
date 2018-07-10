@@ -7,7 +7,7 @@ import Editions from '../components/Editions';
 export default () => (
   <div>
     <Head
-      title="Totus Tuus - Ediciones"
+      title="Revista Totus Tuus - Ediciones"
       description="Ediciones publicadas de La revista TOTUS TUUS."
       url="https://www.revistatotustuus.com/ediciones"
       ogImage="/static/images/logo.png"

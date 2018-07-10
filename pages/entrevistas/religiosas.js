@@ -5,7 +5,12 @@ import FirstSection from '../../components/Interviews/Interview-section/FirstSec
 
 export default () => (
   <div>
-    <Head title="Totus Tuus - Entrevistas Religiosas" />
+    <Head
+      title="Revista Totus Tuus - Entrevistas Religiosas"
+      description="Entrevistas Religiosas."
+      url="https://www.revistatotustuus.com/entrevistas/religiosas"
+      ogImage="/static/images/logo.png"
+    />
     <Header />
     <FirstSection />
     <Footer />
